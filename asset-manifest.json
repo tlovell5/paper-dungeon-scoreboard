@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/paper-dungeon-scoreboard/static/css/main.336ab63d.chunk.css",
+    "main.css": "/paper-dungeon-scoreboard/static/css/main.e3f7239d.chunk.css",
     "main.js": "/paper-dungeon-scoreboard/static/js/main.97593036.chunk.js",
     "main.js.map": "/paper-dungeon-scoreboard/static/js/main.97593036.chunk.js.map",
     "runtime-main.js": "/paper-dungeon-scoreboard/static/js/runtime-main.8a5f6050.js",
@@ -8,13 +8,13 @@
     "static/js/2.8780a14e.chunk.js": "/paper-dungeon-scoreboard/static/js/2.8780a14e.chunk.js",
     "static/js/2.8780a14e.chunk.js.map": "/paper-dungeon-scoreboard/static/js/2.8780a14e.chunk.js.map",
     "index.html": "/paper-dungeon-scoreboard/index.html",
-    "static/css/main.336ab63d.chunk.css.map": "/paper-dungeon-scoreboard/static/css/main.336ab63d.chunk.css.map",
+    "static/css/main.e3f7239d.chunk.css.map": "/paper-dungeon-scoreboard/static/css/main.e3f7239d.chunk.css.map",
     "static/js/2.8780a14e.chunk.js.LICENSE.txt": "/paper-dungeon-scoreboard/static/js/2.8780a14e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8a5f6050.js",
     "static/js/2.8780a14e.chunk.js",
-    "static/css/main.336ab63d.chunk.css",
+    "static/css/main.e3f7239d.chunk.css",
     "static/js/main.97593036.chunk.js"
   ]
 }
