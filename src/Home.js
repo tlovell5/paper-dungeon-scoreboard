@@ -5,29 +5,22 @@ import Health from './Health';
 import MonsterHealth from './MonsterHealth';
 import MonsterDice from './MonsterDice';
 
-
-
 function Home() {
+  const [baseAggro, setbaseAggro] = useState(0);
+  const [diceRoll, setdiceRoll] = useState(0);
 
-    const [baseAggro, setbaseAggro] = useState(0);
-    const [diceRoll, setdiceRoll] = useState(0);
-
-
-
-
-return (
+  return (
     <>
+      <Health />
+      <Aggro setbaseAggro={setbaseAggro} />
+      <div id='totalAggro'>Total Aggro: {baseAggro + diceRoll}</div>
+      <Die setdiceRoll={setdiceRoll} />
+      <br />
 
-    <Health/>
-    <Aggro setbaseAggro={setbaseAggro}/>
-    <div id="totalAggro">Total Aggro: {baseAggro+diceRoll}</div>
-    <Die setdiceRoll={setdiceRoll}/>
-   <br/>
-  
-    <MonsterHealth/>
-    <MonsterDice/>
+      <MonsterHealth />
+      <MonsterDice />
     </>
-)
+  );
 }
 
-export default Home
+export default Home;

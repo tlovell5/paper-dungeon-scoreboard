@@ -1,15 +1,12 @@
-import React from "react"
+import React from 'react';
 import Dice from './Dice';
 
-
 function CustomDice() {
-return (
+  return (
     <>
- 
-    <Dice/>
-  
+      <Dice />
     </>
-)
+  );
 }
 
-export default CustomDice
+export default CustomDice;

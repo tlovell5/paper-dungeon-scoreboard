@@ -1,17 +1,14 @@
-import React from "react"
+import React from 'react';
 import MonsterDice from './MonsterDice';
 import MonsterHealth from './MonsterHealth';
 
-
 function Monster() {
-return (
+  return (
     <>
- 
- <MonsterHealth/>
- <MonsterDice/>
-  
+      <MonsterHealth />
+      <MonsterDice />
     </>
-)
+  );
 }
 
-export default Monster
+export default Monster;
