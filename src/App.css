@@ -1,0 +1,149 @@
+h1 {
+  text-align: center;
+  color: rgb(7, 7, 7);
+  font-family: monospace;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+#totalAggro {
+  background-color: #333333;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  font-family: monospace;
+  font-size: 3em;
+}
+
+Button.increase {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+Button.decrease {
+  background-color: #e44e3a; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 10% 25% 10%;
+  background-color: #616161;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.name {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.decrease {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.number {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.increase {
+  grid-column-start: 4;
+  grid-column-end: 4;
+}
+
+.grid-container-two {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background-color: #333333;
+  padding: 10px;
+}
+
+.grid-container-two > div {
+  background-color: rgba(24, 216, 184, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.dice {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size: 3em;
+}
+
+.diceButton {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  border-radius: 10px;
+  color: rgb(7, 7, 7);
+  font-family: monospace;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(24, 24, 24);
+  text-transform: uppercase;
+}
+
+#li {
+  float: left;
+}
+
+#li,
+#a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+#li #a:hover:not(.a) {
+  background-color: #4caf50;
+}
+#a {
+  background-color: #111;
+}
