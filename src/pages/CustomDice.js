@@ -1,12 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { connect } from 'react-redux';
 
-function CustomDice() {
-  const [minVal, setMinVal] = useState(1);
-  const [maxVal, setMaxVal] = useState(20);
-  const [randomNum, setRandomNum] = useState(5);
+import {
+  updateMin,
+  updateMax,
+  updateDieRoll,
+} from '../redux/actions/customDiceActions';
 
+function CustomDice(props) {
   const handleRandomNum = () => {
-    setRandomNum(Math.floor(Math.random() * (maxVal - minVal + 1) + minVal));
+    props.setDiceRoll(
+      Math.floor(Math.random() * (props.max - props.min + 1) + props.min)
+    );
   };
 
   return (
@@ -18,16 +23,16 @@ function CustomDice() {
             <p>Min</p>
             <input
               type='number'
-              value={minVal}
-              onChange={(e) => setMinVal(+e.target.value)}
+              value={props.min}
+              onChange={(e) => props.setDiceMin(+e.target.value)}
             />
           </div>
           <div>
             <p>Max</p>
             <input
               type='number'
-              value={maxVal}
-              onChange={(e) => setMaxVal(+e.target.value)}
+              value={props.max}
+              onChange={(e) => props.setDiceMax(+e.target.value)}
             />
           </div>
           <br />
@@ -36,11 +41,23 @@ function CustomDice() {
       </div>
       <div className='randomNum'>
         <p>
-          You rolled a <span>{randomNum}</span>
+          You rolled a <span>{props.lastDiceRoll}</span>
         </p>
       </div>
     </div>
   );
 }
 
-export default CustomDice;
+const mapStateToProps = (state) => ({
+  min: state.customDiceReducer.min,
+  max: state.customDiceReducer.max,
+  lastDiceRoll: state.monsterReducer.lastDiceRoll,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+  setDiceMin: (min) => dispatch(updateMin(min)),
+  setDiceMax: (max) => dispatch(updateMax(max)),
+  setDiceRoll: (roll) => dispatch(updateDieRoll(roll)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(CustomDice);

@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Die(props) {
   const minVal = props.min;
   const maxVal = props.max;
-  const [randomNum, setRandomNum] = useState(
-    Math.floor(Math.random() * (maxVal - minVal + 1) + minVal)
-  );
 
   const handleRandomNum = () => {
     const number = Math.floor(Math.random() * (maxVal - minVal + 1) + minVal);
-    setRandomNum(number);
     props.setDiceRoll(number);
   };
 
@@ -19,7 +15,7 @@ function Die(props) {
         Roll Dice
       </button>
       <h1 className='dice'>
-        <span>{randomNum}</span>
+        <span>{props.roll}</span>
       </h1>
     </div>
   );

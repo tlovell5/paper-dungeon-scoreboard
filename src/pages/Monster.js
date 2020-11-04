@@ -1,26 +1,33 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 
-import Aggro from '../components/Aggro';
 import Die from '../components/Die';
 import Health from '../components/Health';
 
-function Monster() {
-  const [health, setHealth] = useState(0);
-  const [baseAggro, setBaseAggro] = useState(0);
-  const [diceRoll, setDiceRoll] = useState(0);
+import { updateHealth, updateDieRoll } from '../redux/actions/monsterActions';
 
+function Monster(props) {
   return (
     <>
-      <Health health={health} setHealth={setHealth} />
-      <Aggro aggro={baseAggro} setBaseAggro={setBaseAggro} />
-      <Die min={1} max={6} setDiceRoll={setDiceRoll} />
+      <Health health={props.health} setHealth={props.updateMonsterHealth} />
+      <Die
+        min={1}
+        max={6}
+        roll={props.lastDiceRoll}
+        setDiceRoll={props.setDiceRoll}
+      />
     </>
   );
 }
 
-const mapStateToProps = (state) => ({});
+const mapStateToProps = (state) => ({
+  health: state.monsterReducer.health,
+  lastDiceRoll: state.monsterReducer.lastDiceRoll,
+});
 
-const mapDispatchToProps = (dispatch) => ({});
+const mapDispatchToProps = (dispatch) => ({
+  updateMonsterHealth: (health) => dispatch(updateHealth(health)),
+  setDiceRoll: (roll) => dispatch(updateDieRoll(roll)),
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(Monster);

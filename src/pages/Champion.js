@@ -19,7 +19,12 @@ function Champion(props) {
       <div id='totalAggro'>
         Total Aggro: {props.baseAggro + props.lastDiceRoll}
       </div>
-      <Die min={1} max={20} setDiceRoll={props.setDiceRoll} />
+      <Die
+        min={1}
+        max={20}
+        roll={props.lastDiceRoll}
+        setDiceRoll={props.setDiceRoll}
+      />
     </>
   );
 }
