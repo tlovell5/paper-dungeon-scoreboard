@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/paper-dungeon-scoreboard/static/css/main.e3f7239d.chunk.css",
-    "main.js": "/paper-dungeon-scoreboard/static/js/main.5ca2a38e.chunk.js",
-    "main.js.map": "/paper-dungeon-scoreboard/static/js/main.5ca2a38e.chunk.js.map",
+    "main.css": "/paper-dungeon-scoreboard/static/css/main.d6d262e5.chunk.css",
+    "main.js": "/paper-dungeon-scoreboard/static/js/main.b6f37c00.chunk.js",
+    "main.js.map": "/paper-dungeon-scoreboard/static/js/main.b6f37c00.chunk.js.map",
     "runtime-main.js": "/paper-dungeon-scoreboard/static/js/runtime-main.8a5f6050.js",
     "runtime-main.js.map": "/paper-dungeon-scoreboard/static/js/runtime-main.8a5f6050.js.map",
-    "static/js/2.8780a14e.chunk.js": "/paper-dungeon-scoreboard/static/js/2.8780a14e.chunk.js",
-    "static/js/2.8780a14e.chunk.js.map": "/paper-dungeon-scoreboard/static/js/2.8780a14e.chunk.js.map",
+    "static/js/2.e9f8fa04.chunk.js": "/paper-dungeon-scoreboard/static/js/2.e9f8fa04.chunk.js",
+    "static/js/2.e9f8fa04.chunk.js.map": "/paper-dungeon-scoreboard/static/js/2.e9f8fa04.chunk.js.map",
     "index.html": "/paper-dungeon-scoreboard/index.html",
-    "static/css/main.e3f7239d.chunk.css.map": "/paper-dungeon-scoreboard/static/css/main.e3f7239d.chunk.css.map",
-    "static/js/2.8780a14e.chunk.js.LICENSE.txt": "/paper-dungeon-scoreboard/static/js/2.8780a14e.chunk.js.LICENSE.txt"
+    "static/css/main.d6d262e5.chunk.css.map": "/paper-dungeon-scoreboard/static/css/main.d6d262e5.chunk.css.map",
+    "static/js/2.e9f8fa04.chunk.js.LICENSE.txt": "/paper-dungeon-scoreboard/static/js/2.e9f8fa04.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8a5f6050.js",
-    "static/js/2.8780a14e.chunk.js",
-    "static/css/main.e3f7239d.chunk.css",
-    "static/js/main.5ca2a38e.chunk.js"
+    "static/js/2.e9f8fa04.chunk.js",
+    "static/css/main.d6d262e5.chunk.css",
+    "static/js/main.b6f37c00.chunk.js"
   ]
 }
