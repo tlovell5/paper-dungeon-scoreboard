@@ -12,8 +12,8 @@ function Monster() {
 
   return (
     <>
-      <Health setHealth={setHealth} />
-      <Aggro setBaseAggro={setBaseAggro} />
+      <Health health={health} setHealth={setHealth} />
+      <Aggro aggro={baseAggro} setBaseAggro={setBaseAggro} />
       <Die min={1} max={6} setDiceRoll={setDiceRoll} />
     </>
   );
