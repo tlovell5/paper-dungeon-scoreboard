@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-function Dice() {
-  const [minVal, setMinVal] = useState(0);
+function CustomDice() {
+  const [minVal, setMinVal] = useState(1);
   const [maxVal, setMaxVal] = useState(20);
   const [randomNum, setRandomNum] = useState(5);
 
@@ -43,4 +43,4 @@ function Dice() {
   );
 }
 
-export default Dice;
+export default CustomDice;

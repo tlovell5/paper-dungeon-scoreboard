@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 function Die(props) {
-  const [minVal, setMinVal] = useState(1);
-  const [maxVal, setMaxVal] = useState(20);
+  const minVal = props.min;
+  const maxVal = props.max;
   const [randomNum, setRandomNum] = useState(
     Math.floor(Math.random() * (maxVal - minVal + 1) + minVal)
   );
@@ -10,15 +10,15 @@ function Die(props) {
   const handleRandomNum = () => {
     const number = Math.floor(Math.random() * (maxVal - minVal + 1) + minVal);
     setRandomNum(number);
-    props.setdiceRoll(number);
+    props.setDiceRoll(number);
   };
 
   return (
-    <div class='grid-container-two'>
-      <button class='diceButton' onClick={handleRandomNum}>
+    <div className='grid-container-two'>
+      <button className='diceButton' onClick={handleRandomNum}>
         Roll Dice
       </button>
-      <h1 class='dice'>
+      <h1 className='dice'>
         <span>{randomNum}</span>
       </h1>
     </div>

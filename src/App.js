@@ -1,12 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 
-import Home from './Home';
-import Monster from './Monster';
-import CustomDice from './CustomDice';
+import Home from './pages/Champion';
+import Monster from './pages/Monster';
+import CustomDice from './pages/CustomDice';
 import './App.css';
-import Aggro from './Aggro';
-import Die from './Die';
 
 function App() {
   return (

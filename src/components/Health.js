@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Aggro(props) {
+function Health(props) {
   const [count, setCount] = useState(0);
   function update(value) {
     if (count === 0 && value < 0) {
@@ -8,16 +8,16 @@ function Aggro(props) {
     }
     const newCount = count + value;
     setCount(newCount);
-    props.setbaseAggro(newCount);
+    props.setHealth(newCount);
   }
 
   return (
-    <div class='grid-container'>
-      <h1 class='name'>Aggro</h1>
+    <div className='grid-container'>
+      <h1 className='name'>Health</h1>
       <button className='decrease' onClick={() => update(-1)}>
         -
       </button>
-      <h1 class='number'>{count}</h1>
+      <h1 className='number'>{props.health}</h1>
       <button className='increase' onClick={() => update(1)}>
         +
       </button>
@@ -25,4 +25,4 @@ function Aggro(props) {
   );
 }
 
-export default Aggro;
+export default Health;
