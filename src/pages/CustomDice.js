@@ -51,7 +51,7 @@ function CustomDice(props) {
 const mapStateToProps = (state) => ({
   min: state.customDiceReducer.min,
   max: state.customDiceReducer.max,
-  lastDiceRoll: state.monsterReducer.lastDiceRoll,
+  lastDiceRoll: state.customDiceReducer.lastDiceRoll,
 });
 
 const mapDispatchToProps = (dispatch) => ({

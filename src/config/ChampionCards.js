@@ -1,4 +1,4 @@
-const champions = [
+export const champions = [
   {
     id: '1',
     champion: 'Warrior',
@@ -10,7 +10,7 @@ const champions = [
         aggro: 1,
         damage: 0,
         block: 2,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '2',
@@ -19,7 +19,7 @@ const champions = [
         aggro: 1,
         damage: 0,
         block: 2,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '3',
@@ -28,7 +28,7 @@ const champions = [
         aggro: 2,
         damage: 2,
         block: 2,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '4',
@@ -37,7 +37,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 4,
-        description: 'Take Direct Damage for Target Player'
+        description: 'Take Direct Damage for Target Player',
       },
       {
         id: '5',
@@ -47,7 +47,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '50% of Blocked Damage is Dealt to Attacking Enemy. 50% of Blocked Damage Heals Self'
+          '50% of Blocked Damage is Dealt to Attacking Enemy. 50% of Blocked Damage Heals Self',
       },
       {
         id: '6',
@@ -56,7 +56,7 @@ const champions = [
         aggro: 5,
         damage: 0,
         block: 3,
-        description: 'Unused Block Points Heal Self'
+        description: 'Unused Block Points Heal Self',
       },
       {
         id: '7',
@@ -65,7 +65,7 @@ const champions = [
         aggro: 5,
         damage: 0,
         block: 3,
-        description: 'Unused Block Points Damage Attacking Target'
+        description: 'Unused Block Points Damage Attacking Target',
       },
       {
         id: '8',
@@ -74,7 +74,7 @@ const champions = [
         aggro: 5,
         damage: 0,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '9',
@@ -83,7 +83,7 @@ const champions = [
         aggro: 5,
         damage: 0,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '10',
@@ -92,7 +92,7 @@ const champions = [
         aggro: 5,
         damage: 0,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '11',
@@ -101,7 +101,7 @@ const champions = [
         aggro: 5,
         damage: 0,
         block: 0,
-        description: '+2 Attck to All Players'
+        description: '+2 Attck to All Players',
       },
       {
         id: '12',
@@ -110,7 +110,7 @@ const champions = [
         aggro: 5,
         damage: 0,
         block: 0,
-        description: '-3 Attack to Target'
+        description: '-3 Attack to Target',
       },
       {
         id: '13',
@@ -119,7 +119,7 @@ const champions = [
         aggro: 1,
         damage: 1,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '14',
@@ -128,7 +128,7 @@ const champions = [
         aggro: 1,
         damage: 1,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '15',
@@ -137,7 +137,7 @@ const champions = [
         aggro: 1,
         damage: 3,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '16',
@@ -146,7 +146,7 @@ const champions = [
         aggro: 3,
         damage: 1,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '17',
@@ -155,8 +155,8 @@ const champions = [
         aggro: 3,
         damage: 1,
         block: 0,
-        description: 'No Additional Effect'
-      }
+        description: 'No Additional Effect',
+      },
     ],
     stances: [
       {
@@ -166,7 +166,7 @@ const champions = [
         aggro: 0,
         damage: 2,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '2',
@@ -175,7 +175,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 2,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '3',
@@ -184,9 +184,9 @@ const champions = [
         aggro: 0,
         damage: 1,
         block: 1,
-        description: 'No Additional Effect'
-      }
-    ]
+        description: 'No Additional Effect',
+      },
+    ],
   },
   {
     id: '2',
@@ -199,7 +199,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '+3 Heal to Target'
+        description: '+3 Heal to Target',
       },
       {
         id: '2',
@@ -208,7 +208,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '+3 Heal to Target'
+        description: '+3 Heal to Target',
       },
       {
         id: '3',
@@ -217,7 +217,7 @@ const champions = [
         aggro: 4,
         damage: 0,
         block: 0,
-        description: '+6 Heal to Target'
+        description: '+6 Heal to Target',
       },
       {
         id: '4',
@@ -226,7 +226,7 @@ const champions = [
         aggro: 4,
         damage: 2,
         block: 0,
-        description: '+2 Heal to Self'
+        description: '+2 Heal to Self',
       },
       {
         id: '5',
@@ -235,7 +235,7 @@ const champions = [
         aggro: 1,
         damage: 0,
         block: 0,
-        description: '+1 Shield to Target. +1 Attack to Target'
+        description: '+1 Shield to Target. +1 Attack to Target',
       },
       {
         id: '6',
@@ -244,7 +244,7 @@ const champions = [
         aggro: 1,
         damage: 0,
         block: 0,
-        description: '+1 Shield to Target. +1 Attack to Target'
+        description: '+1 Shield to Target. +1 Attack to Target',
       },
       {
         id: '7',
@@ -253,7 +253,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '+2 Shield to Target. +2 Attack to Target'
+        description: '+2 Shield to Target. +2 Attack to Target',
       },
       {
         id: '8',
@@ -262,7 +262,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '-4 Attacks to Target'
+        description: '-4 Attacks to Target',
       },
       {
         id: '9',
@@ -271,7 +271,7 @@ const champions = [
         aggro: 1,
         damage: 0,
         block: 0,
-        description: '+2 Shield to Target'
+        description: '+2 Shield to Target',
       },
       {
         id: '10',
@@ -280,7 +280,7 @@ const champions = [
         aggro: 1,
         damage: 0,
         block: 0,
-        description: '+2 Shield to Target'
+        description: '+2 Shield to Target',
       },
       {
         id: '11',
@@ -289,7 +289,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '+4 Shield to Target'
+        description: '+4 Shield to Target',
       },
       {
         id: '12',
@@ -298,7 +298,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '+4 Damage to Enemy When Enemy Attacks Target Player'
+        description: '+4 Damage to Enemy When Enemy Attacks Target Player',
       },
       {
         id: '13',
@@ -307,7 +307,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-25% Aggro'
+        description: '-25% Aggro',
       },
       {
         id: '14',
@@ -316,7 +316,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-25% Aggro'
+        description: '-25% Aggro',
       },
       {
         id: '15',
@@ -325,7 +325,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '50% Chance Target Enemy Takes No Action'
+        description: '50% Chance Target Enemy Takes No Action',
       },
       {
         id: '16',
@@ -334,10 +334,10 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-50% Aggro'
-      }
+        description: '-50% Aggro',
+      },
     ],
-    stances: []
+    stances: [],
   },
   {
     id: '3',
@@ -350,7 +350,7 @@ const champions = [
         aggro: 2,
         damage: 2,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '2',
@@ -359,7 +359,7 @@ const champions = [
         aggro: 2,
         damage: 2,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '3',
@@ -368,7 +368,7 @@ const champions = [
         aggro: 4,
         damage: 4,
         block: 0,
-        description: 'No Additional Effect'
+        description: 'No Additional Effect',
       },
       {
         id: '4',
@@ -377,7 +377,7 @@ const champions = [
         aggro: 4,
         damage: 2,
         block: 0,
-        description: '-2 Attacks to Target'
+        description: '-2 Attacks to Target',
       },
       {
         id: '5',
@@ -386,7 +386,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-25% Aggro'
+        description: '-25% Aggro',
       },
       {
         id: '6',
@@ -395,7 +395,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-25% Aggro'
+        description: '-25% Aggro',
       },
       {
         id: '7',
@@ -404,7 +404,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '25% Chance Boss Takes No Action'
+        description: '25% Chance Boss Takes No Action',
       },
       {
         id: '8',
@@ -413,7 +413,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-50% Aggro'
+        description: '-50% Aggro',
       },
       {
         id: '9',
@@ -422,7 +422,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '3 Poison Tokens to Target for 1+ Damage Each'
+        description: '3 Poison Tokens to Target for 1+ Damage Each',
       },
       {
         id: '10',
@@ -431,7 +431,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '3 Poison Tokens to Target for 1+ Damage Each'
+        description: '3 Poison Tokens to Target for 1+ Damage Each',
       },
       {
         id: '11',
@@ -440,7 +440,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: '3 Poison Tokens to Target for 1+ Damage Each'
+        description: '3 Poison Tokens to Target for 1+ Damage Each',
       },
       {
         id: '12',
@@ -450,7 +450,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          'If Enemy Attacks Target Player Deal +4 Damage to Enemy and Place 3 Poison Tokens on Enemy for 1+ Damage Each'
+          'If Enemy Attacks Target Player Deal +4 Damage to Enemy and Place 3 Poison Tokens on Enemy for 1+ Damage Each',
       },
       {
         id: '13',
@@ -460,7 +460,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+2 Damage to Target and Place 3 Poison Tokens on Target for +1 Damage Each'
+          '+2 Damage to Target and Place 3 Poison Tokens on Target for +1 Damage Each',
       },
       {
         id: '14',
@@ -469,7 +469,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: 'Draw 2 Cards and Play 1'
+        description: 'Draw 2 Cards and Play 1',
       },
       {
         id: '15',
@@ -478,7 +478,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: 'Draw 2 Cards and Play 1'
+        description: 'Draw 2 Cards and Play 1',
       },
       {
         id: '16',
@@ -487,7 +487,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: 'Play the Next 2 Cards from Your Deck'
+        description: 'Play the Next 2 Cards from Your Deck',
       },
       {
         id: '17',
@@ -496,10 +496,10 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: 'Select Any Card From Your Deck and Play It'
-      }
+        description: 'Select Any Card From Your Deck and Play It',
+      },
     ],
-    stances: []
+    stances: [],
   },
   {
     id: '4',
@@ -512,7 +512,7 @@ const champions = [
         aggro: 2,
         damage: 2,
         block: 0,
-        description: 'No Additional Effects'
+        description: 'No Additional Effects',
       },
       {
         id: '2',
@@ -521,7 +521,7 @@ const champions = [
         aggro: 2,
         damage: 2,
         block: 0,
-        description: 'No Additional Effects'
+        description: 'No Additional Effects',
       },
       {
         id: '3',
@@ -531,7 +531,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+4 Damage to Target Place 2 Burn TOkens on Target Dealing 2 Damage Each'
+          '+4 Damage to Target Place 2 Burn TOkens on Target Dealing 2 Damage Each',
       },
       {
         id: '4',
@@ -541,7 +541,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+2 Damage to Target -2 Attack to Target Place 2 Chill Tokens on Target Rendering -2 Attack Each'
+          '+2 Damage to Target -2 Attack to Target Place 2 Chill Tokens on Target Rendering -2 Attack Each',
       },
       {
         id: '5',
@@ -551,7 +551,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          'Create an Additional Target with Targeted Players Base Aggro Score Roll Aggro on Illusion'
+          'Create an Additional Target with Targeted Players Base Aggro Score Roll Aggro on Illusion',
       },
       {
         id: '6',
@@ -561,7 +561,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          'Create an Additional Target with Targeted Players Base Aggro Score Roll Aggro on Illusion'
+          'Create an Additional Target with Targeted Players Base Aggro Score Roll Aggro on Illusion',
       },
       {
         id: '7',
@@ -571,7 +571,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          'Create an Additional Target with Targeted Players Base Aggro Score Roll Aggro on Illusion If Illusion is Hit, Place 2 Chill Tokens on Attacker Chill Tokens Render -2 Attack Each'
+          'Create an Additional Target with Targeted Players Base Aggro Score Roll Aggro on Illusion If Illusion is Hit, Place 2 Chill Tokens on Attacker Chill Tokens Render -2 Attack Each',
       },
       {
         id: '8',
@@ -581,7 +581,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          'Create an Additional Target with Targeted Players Base Aggro Score Roll Aggro on Illusion If Illusion is Hit, Place 2 Burn Tokens on Attacker Burn Tokens Render -2 Attack Each'
+          'Create an Additional Target with Targeted Players Base Aggro Score Roll Aggro on Illusion If Illusion is Hit, Place 2 Burn Tokens on Attacker Burn Tokens Render -2 Attack Each',
       },
       {
         id: '9',
@@ -590,7 +590,7 @@ const champions = [
         aggro: 1,
         damage: 0,
         block: 0,
-        description: 'Remove 1 Enemy Action Possibly This Round'
+        description: 'Remove 1 Enemy Action Possibly This Round',
       },
       {
         id: '10',
@@ -599,7 +599,7 @@ const champions = [
         aggro: 1,
         damage: 0,
         block: 0,
-        description: 'Remove 1 Enemy Action Possibly This Round'
+        description: 'Remove 1 Enemy Action Possibly This Round',
       },
       {
         id: '11',
@@ -608,7 +608,7 @@ const champions = [
         aggro: 4,
         damage: 0,
         block: 0,
-        description: 'Enemy Actions Also APply to Themselves This Round'
+        description: 'Enemy Actions Also APply to Themselves This Round',
       },
       {
         id: '12',
@@ -617,7 +617,7 @@ const champions = [
         aggro: 2,
         damage: 0,
         block: 0,
-        description: 'Remove 3 Enemy Action Possiblities This Round'
+        description: 'Remove 3 Enemy Action Possiblities This Round',
       },
       {
         id: '13',
@@ -626,7 +626,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-25% Aggro'
+        description: '-25% Aggro',
       },
       {
         id: '14',
@@ -635,7 +635,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-25% Aggro'
+        description: '-25% Aggro',
       },
       {
         id: '15',
@@ -645,7 +645,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '-100% Aggro Enemies Ignore Aggro This Round and Attack Players at Random'
+          '-100% Aggro Enemies Ignore Aggro This Round and Attack Players at Random',
       },
       {
         id: '16',
@@ -655,7 +655,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '-100% Aggro Cannot Play an Action or Receive Effects Next Round'
+          '-100% Aggro Cannot Play an Action or Receive Effects Next Round',
       },
       {
         id: '17',
@@ -665,7 +665,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+1 Burn Token on Attacker if Hit, Burn Token Renders +2 Damage Each, +1 Chill Token on Attacker if Hit Chill Token Renders -2 Attack Each'
+          '+1 Burn Token on Attacker if Hit, Burn Token Renders +2 Damage Each, +1 Chill Token on Attacker if Hit Chill Token Renders -2 Attack Each',
       },
       {
         id: '18',
@@ -675,7 +675,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+2 Chill Tokens on Attacker if Hit Chill Token Renders -2 Attack Each'
+          '+2 Chill Tokens on Attacker if Hit Chill Token Renders -2 Attack Each',
       },
       {
         id: '19',
@@ -685,10 +685,10 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+2 Burn TOkens on Attacker if Hit Burn Token Renders +2 Damage Each'
-      }
+          '+2 Burn TOkens on Attacker if Hit Burn Token Renders +2 Damage Each',
+      },
     ],
-    stances: []
+    stances: [],
   },
   {
     id: '5',
@@ -702,7 +702,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+1 Damage to Target +1 Heal to Random Player +1 Block to Random Player'
+          '+1 Damage to Target +1 Heal to Random Player +1 Block to Random Player',
       },
       {
         id: '2',
@@ -711,7 +711,7 @@ const champions = [
         aggro: 3,
         damage: 1,
         block: 0,
-        description: '+1 Heal to Random Player +1 Block to Random Player'
+        description: '+1 Heal to Random Player +1 Block to Random Player',
       },
       {
         id: '3',
@@ -720,7 +720,7 @@ const champions = [
         aggro: 3,
         damage: 2,
         block: 0,
-        description: '+1 Heal to Random Player +1 Block to Random Player'
+        description: '+1 Heal to Random Player +1 Block to Random Player',
       },
       {
         id: '4',
@@ -729,7 +729,7 @@ const champions = [
         aggro: 3,
         damage: 2,
         block: 0,
-        description: '+2 Heal to Random Player'
+        description: '+2 Heal to Random Player',
       },
       {
         id: '5',
@@ -739,7 +739,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+1 Damage to Target +1 Heal to Random Player +1 Block to Random Player'
+          '+1 Damage to Target +1 Heal to Random Player +1 Block to Random Player',
       },
       {
         id: '6',
@@ -748,7 +748,7 @@ const champions = [
         aggro: 3,
         damage: 0,
         block: 2,
-        description: 'No Additonal Effects'
+        description: 'No Additonal Effects',
       },
       {
         id: '7',
@@ -757,7 +757,7 @@ const champions = [
         aggro: 3,
         damage: 0,
         block: 2,
-        description: 'No Additonal Effects'
+        description: 'No Additonal Effects',
       },
       {
         id: '8',
@@ -767,7 +767,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          'Takes 5-% of Target Players Direct Damage Received This Round'
+          'Takes 5-% of Target Players Direct Damage Received This Round',
       },
       {
         id: '9',
@@ -776,7 +776,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: 'Take 100% of Target Players Direct Damage This Round'
+        description: 'Take 100% of Target Players Direct Damage This Round',
       },
       {
         id: '10',
@@ -786,7 +786,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+1 attack to Target Player +1 Heal to Target Player +1 Block to Target Player'
+          '+1 attack to Target Player +1 Heal to Target Player +1 Block to Target Player',
       },
       {
         id: '11',
@@ -796,7 +796,7 @@ const champions = [
         damage: 0,
         block: 0,
         description:
-          '+1 attack to Target Player +1 Heal to Target Player +1 Block to Target Player'
+          '+1 attack to Target Player +1 Heal to Target Player +1 Block to Target Player',
       },
 
       {
@@ -806,7 +806,7 @@ const champions = [
         aggro: 4,
         damage: 0,
         block: 0,
-        description: '+2 Heal to Target Player +2 Block to Target Player'
+        description: '+2 Heal to Target Player +2 Block to Target Player',
       },
       {
         id: '13',
@@ -815,7 +815,7 @@ const champions = [
         aggro: 4,
         damage: 0,
         block: 0,
-        description: '+2 Heal to Target Player +2 Attack to Target Player'
+        description: '+2 Heal to Target Player +2 Attack to Target Player',
       },
       {
         id: '14',
@@ -824,7 +824,7 @@ const champions = [
         aggro: 4,
         damage: 0,
         block: 0,
-        description: '+2 to Target Player +2 Block to Target Player'
+        description: '+2 to Target Player +2 Block to Target Player',
       },
       {
         id: '15',
@@ -833,7 +833,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-25% Aggro'
+        description: '-25% Aggro',
       },
       {
         id: '16',
@@ -842,7 +842,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-25% Aggro'
+        description: '-25% Aggro',
       },
       {
         id: '17',
@@ -851,7 +851,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-50% Aggro'
+        description: '-50% Aggro',
       },
       {
         id: '18',
@@ -860,8 +860,8 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '-25% Aggro on Target Player'
-      }
+        description: '-25% Aggro on Target Player',
+      },
     ],
     stances: [
       {
@@ -871,7 +871,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '+2 on All Player Block Effects'
+        description: '+2 on All Player Block Effects',
       },
       {
         id: '2',
@@ -880,7 +880,7 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '+2 on All Player Attack Effects'
+        description: '+2 on All Player Attack Effects',
       },
       {
         id: '3',
@@ -889,8 +889,8 @@ const champions = [
         aggro: 0,
         damage: 0,
         block: 0,
-        description: '+2 on All Player Heal Effects'
-      }
-    ]
-  }
+        description: '+2 on All Player Heal Effects',
+      },
+    ],
+  },
 ];
