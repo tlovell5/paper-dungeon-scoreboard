@@ -171,3 +171,27 @@ Button.decrease {
   font-size: 3em;
   text-transform: uppercase;
 }
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.card {
+  border: 1px solid black;
+  width: 40%;
+  padding: 0 10px;
+}
+
+.card h3 {
+  margin-bottom: 5px;
+}
+
+.card h4 {
+  margin: 5px;
+}
+
+.card p {
+  margin-top: 5px;
+}

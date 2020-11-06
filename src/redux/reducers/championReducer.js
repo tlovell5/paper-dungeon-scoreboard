@@ -18,14 +18,20 @@ const championReducer = (state = initialState, action) => {
         currentCardIndex: 0,
       };
     case 'DRAW_TWO':
-      console.log(state.cards[state.currentCardIndex]);
+      let newIndex = state.currentCardIndex + 2;
+      let cards = state.cards;
+      if (state.cards.length - newIndex < 2) {
+        shuffle(cards);
+        newIndex = 0;
+      }
       return {
         ...state,
         drawnCards: [
           state.cards[state.currentCardIndex],
           state.cards[state.currentCardIndex + 1],
         ],
-        currentCardIndex: state.currentCardIndex + 2,
+        currentCardIndex: newIndex,
+        cards: cards,
       };
     case 'UPDATE_CHAMPION_HEALTH':
       return {

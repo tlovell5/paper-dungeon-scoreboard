@@ -28,7 +28,15 @@ function Champion(props) {
 
   const showCards = () => {
     return props.drawnCards.map((card) => {
-      return <div key={card.id}>{card.ability}</div>;
+      return (
+        <div className='card' key={card.id}>
+          <h3>{card.ability}</h3>
+          <h4>aggro: {card.aggro}</h4>
+          <h4>damage: {card.damage}</h4>
+          <h4>block: {card.block}</h4>
+          <p>description: {card.description}</p>
+        </div>
+      );
     });
   };
 
@@ -36,7 +44,6 @@ function Champion(props) {
     props.selectChampion(champions[event.target.value]);
   };
 
-  console.log(props.drawnCards);
   return (
     <>
       <div className='champion-select'>
@@ -66,7 +73,9 @@ function Champion(props) {
       >
         Draw Cards
       </button>
-      {props.drawnCards.length > 0 && showCards()}
+      <section className='cards'>
+        {props.drawnCards.length > 0 && showCards()}
+      </section>
     </>
   );
 }
