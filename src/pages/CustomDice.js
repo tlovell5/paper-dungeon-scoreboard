@@ -13,7 +13,7 @@ function CustomDice(props) {
       Math.floor(Math.random() * (props.max - props.min + 1) + props.min)
     );
   };
-
+  console.log(props);
   return (
     <div className='hero'>
       <h2>Custom Dice</h2>

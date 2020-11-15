@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Health(props) {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(props.health);
   function update(value) {
     if (count === 0 && value < 0) {
       return;

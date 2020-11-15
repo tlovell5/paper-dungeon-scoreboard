@@ -16,7 +16,7 @@ const customDiceReducer = (state = initialState, action) => {
         ...state,
         max: action.payload,
       };
-    case 'UPDATE_LAST_ROLL':
+    case 'UPDATE_CUSTOM_ROLL':
       return {
         ...state,
         lastDiceRoll: action.payload,

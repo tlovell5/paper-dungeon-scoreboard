@@ -7,5 +7,6 @@ export const updateMax = (max) => {
 };
 
 export const updateDieRoll = (roll) => {
-  return { type: 'UPDATE_MONSTER_ROLL', payload: roll };
+  console.log(roll);
+  return { type: 'UPDATE_CUSTOM_ROLL', payload: roll };
 };
